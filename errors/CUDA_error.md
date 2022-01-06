@@ -26,3 +26,16 @@
 
 ### RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
 
+[ref1](https://discuss.pytorch.org/t/cuda-error-cublas-status-not-initialized-when-calling-cublascreate-handle/125450)
+
+> This error might be raised, if you are running out of memory and cublas fails to create the handle, so try to reduce the memory usage e.g. via a smaller batch size. (ref1)
+
+
+## CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+
+### RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+
+[ref1](https://developers-shack.tistory.com/5)
+[ref2](https://discuss.pytorch.org/t/runtimeerror-cuda-error-cublas-status-alloc-failed-when-calling-cublascreate-handle-while-running-fine-on-the-cpu/108740)
+[ref3](https://stackoverflow.com/questions/63930934/cuda-error-cublas-status-alloc-failed-when-running-loss-backward)
+
