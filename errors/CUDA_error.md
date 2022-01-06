@@ -39,3 +39,7 @@
 [ref2](https://discuss.pytorch.org/t/runtimeerror-cuda-error-cublas-status-alloc-failed-when-calling-cublascreate-handle-while-running-fine-on-the-cpu/108740)
 [ref3](https://stackoverflow.com/questions/63930934/cuda-error-cublas-status-alloc-failed-when-running-loss-backward)
 
+
+=> classification problem을 위한 model을 만들 때는 마지막 FC layer의 output channel 개수가 무조건 class 수와 같아야 한다.<br>
+위의 에러들은 전부 그걸 안 지켜서 발생한 에러.
+
