@@ -16,6 +16,8 @@
 
 Neural Network의 한 종류인 CNN에 대해서 공부해보자.
 
+<!--여기서 output size 계산하는 방법 정리하기-->
+
 ## CNN motivations
 
 - ### I. Feature extraction
