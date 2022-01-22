@@ -27,7 +27,25 @@ Artificial Neural Network의 목적은 training data `{xj, yj*}`(j=1,2,...,M)에
 
 ## Formal Representation of Neural Network
 
+각각의 뉴런들을 `z=w∙a+b`라고 표시할 수 있다.
+`z`는 forward propagation을 벡터로 나타난 것이고 `w`, `a`, `b`는 각각 가중치(weight), 출력 신호(activation), 바이어스(bias)를 의미한다.
+
+여기서 **forward propagation**이란 입력 신호를 다음 layer로 전달에 전달을 거듭해서 네트워크의 마지막 layer까지 보내는 전체적인 연산 과정을 의미한다.
+
+네트워크의 layer라는 건 수직으로 나열된 뉴런 한 묶음을 말하는데, 네트워크에서 어디에 위치해 있느냐에 따라 **input layer**, **hidden layer**, **output layer**로 구분할 수 있다.<br>
+보통 대문자 `L`이라 하면 네트워크의 전체 layer 개수를 나타내고, 소문자 `l`을 첨자로 쓰면 l번째 layer를 가리키는 것이다.
+그리고 각 layer의 k번째 뉴런이라는 걸 표현하기 위해 `k`를 첨자로 사용한다.
+
+<!--이미지-->
+
 ## Activation Functions
+
+<!--activation function이란--->
+
+- ### Sigmoid
+- ### Hyper tangent
+- ### ReLU
+- ### Leaky ReLU
 
 ## Optimization
 
