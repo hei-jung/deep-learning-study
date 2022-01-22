@@ -17,3 +17,5 @@ Ch06. [RNN](https://github.com/hei-jung/deep-learning-study/blob/main/ch-06-rnn.
 
     - [CUDA 에러](https://github.com/hei-jung/deep-learning-study/blob/main/errors/CUDA_error.md)
     - [기타 Runtime 에러](https://github.com/hei-jung/deep-learning-study/blob/main/errors/else.md)
+
+## 📚논문 리뷰
