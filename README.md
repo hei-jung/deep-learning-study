@@ -4,9 +4,9 @@
 
 ## Index
 
-Ch01.[Preliminaries](https://github.com/hei-jung/deep-learning-study/blob/main/ch-01-preliminaries.md)
-Ch02.[Artificial Neural Network](https://github.com/hei-jung/deep-learning-study/blob/main/ch-02-artificial-neural-network.md)
-Ch03.[CNN](https://github.com/hei-jung/deep-learning-study/blob/main/ch-03-cnn.md)
-Ch04.[Practical Considerations]()
-Ch05.[Computer Vision]()
-Ch06.[RNN]()
+Ch01.[Preliminaries](https://github.com/hei-jung/deep-learning-study/blob/main/ch-01-preliminaries.md)<br>
+Ch02.[Artificial Neural Network](https://github.com/hei-jung/deep-learning-study/blob/main/ch-02-artificial-neural-network.md)<br>
+Ch03.[CNN](https://github.com/hei-jung/deep-learning-study/blob/main/ch-03-cnn.md)<br>
+Ch04.[Practical Considerations](https://github.com/hei-jung/deep-learning-study/blob/main/ch-04-practical-considerations.md)<br>
+Ch05.[Computer Vision](https://github.com/hei-jung/deep-learning-study/blob/main/ch-05-computer-vision.md)<br>
+Ch06.[RNN](https://github.com/hei-jung/deep-learning-study/blob/main/ch-06-rnn.md)
