@@ -34,15 +34,23 @@ normalization은 배열 형식의 입력 데이터를 말 그대로 정규분포
 ## Classification
 
 입력 데이터들이 두 가지 feature에 따라 다음과 같이 plotting 되어 있다고 하자.
-<!--나중에 이미지 추가-->
+
+![img](https://github.com/hei-jung/deep-learning-study/blob/main/ref_img/ch01_img_01.jpeg)
+
 위 그림에서 파란 점들과 빨간 점들을 얼추 구분(classification) 지을 수 있는 classifier 선을 그을 수 있는데,
-<!--나중에 이미지 추가-->
+
+![img](https://github.com/hei-jung/deep-learning-study/blob/main/ref_img/ch01_img_02.jpeg)
+
 이 선을 `decision boundary`라고 하고, 특히 여기선 decision boundary가 직선 형태이므로 linear boundary라고 할 수 있다.<br>
 그런데 그림을 보면 파란색과 빨간색을 구분하는 선이 있지만 근소한 차이로 파란 점들 사이에 빨간 점이 끼어있기도 하고, 반대로 빨간 점들 사이에 파란 점이 끼어있기도 한다.
 즉, linear boundary는 딱딱하게 직선을 그어 데이터들을 분류하다 보니, 분류 작업에 있어서 약간의 오류를 일으킬 수 있다.
-<!--나중에 이미지 추가-->
+
+![img](https://github.com/hei-jung/deep-learning-study/blob/main/ref_img/ch01_img_03.jpeg)
+
 그렇다고 boundary를 저렇게 구불구불, 복잡하게 정하면 지금 가지고 있는 데이터들에 과적합(`overfitting`)이 돼서 나중에 저 boundary에 맞지 않는 새로운 입력 데이터가 들어왔을 때 오답을 말하게 되어, 오히려 정확도가 떨어지게 된다. 그럼 decision boundary를 어떻게 정해야 좋을까?
-<!--나중에 이미지 추가-->
+
+![img](https://github.com/hei-jung/deep-learning-study/blob/main/ref_img/ch01_img_04.jpeg)
+
 이렇게 적당히 모델 성능과 추후에 들어올 새로운 입력 간의 tradeoff를 고려하여 정하는 것이 가장 좋다.
 
 
@@ -77,11 +85,11 @@ g(x)<0 => x∊S2
 - Linear discriminant function<br>
   k-class problem에서 하나의 input vector 당 N개의 feature가 있을 때, discriminant function gk(x)는 다음과 같이 linear하게 나타낼 수 있다.
 
-<!--나중에 이미지 추가-->
+![img](https://github.com/hei-jung/deep-learning-study/blob/main/ref_img/ch01_img_05.jpeg)
 
 decision boundary는 feature 개수에 따라 직선(line)이 될 수도 있고, 평면(plane)이 될 수도 있다.
 물론 직선이면 discriminant function이 직선 방정식, 평면이면 평면 방정식이겠지?
 
-<!--나중에 이미지 추가-->
+![img](https://github.com/hei-jung/deep-learning-study/blob/main/ref_img/ch01_img_06.jpeg)
 
 또한 k 크기에 따라 여러 discriminant function의 조합을 통해 decision boundary를 정할 수 있다.
