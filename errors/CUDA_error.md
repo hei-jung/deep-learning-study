@@ -43,3 +43,7 @@
 => classification problem을 위한 model을 만들 때는 마지막 FC layer의 output channel 개수가 무조건 class 수와 같아야 한다.<br>
 위의 에러들은 전부 그걸 안 지켜서 발생한 에러.
 
+
+## cuDNN error: CUDNN_STATUS_NOT_SUPPORTED. This error may appear if you passed in a non-contiguous input.
+
+Batch-size를 줄여준다.
