@@ -49,8 +49,9 @@
 Batch-size를 줄여준다.
 
 
+## RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
 
-## RTX A6000 with CUDA capability sm_86 is not compatible with the current PyTorch installation.
+### UserWarning: RTX A6000 with CUDA capability sm_86 is not compatible with the current PyTorch installation.
 
 ```console
 $ python -c "import torch; print(torch.cuda.get_arch_list())"
@@ -66,4 +67,4 @@ $ conda create -n a6000 python=3.8 pytorch cudatoolkit=11.1 -c pytorch -c nvidia
 $ conda activate a6000
 ```
 
-then run code at virtual environment
+then run code at virtual environment, no RuntimeError!
