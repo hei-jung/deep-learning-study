@@ -47,3 +47,23 @@
 ## cuDNN error: CUDNN_STATUS_NOT_SUPPORTED. This error may appear if you passed in a non-contiguous input.
 
 Batch-size를 줄여준다.
+
+
+
+## RTX A6000 with CUDA capability sm_86 is not compatible with the current PyTorch installation.
+
+```console
+$ python -c "import torch; print(torch.cuda.get_arch_list())"
+```
+
+expected result: `['sm_37', 'sm_50', 'sm_60', 'sm_61', 'sm_70', 'sm_75', 'sm_80', 'sm_86']`<br>
+but `sm_86` not in returned list
+
+> create virtual environment with a compatible PyTorch installation
+
+```console
+$ conda create -n a6000 python=3.8 pytorch cudatoolkit=11.1 -c pytorch -c nvidia
+$ conda activate a6000
+```
+
+then run code at virtual environment
